@@ -6,3 +6,18 @@ selectors, sibling selector, inner_text, attribute, headless browser, waiting fo
 JavaScript, crawling, pagination, read_html, melt, fuzzy matching, normalization,
 threshold, human in the loop, merge indicator, gap analysis), and make it
 actionable.
+
+Through this assignment I was able to better understand how web scraping works
+and how to turn analyze websites data to make something useful.
+I learned how to use Playwright and CSS selectors to extract information,
+along with pandas to clean and organize the data into DataFrames.
+One of the more challenging parts was dealing with the different website structures,
+since each café required a different approach to scraping its menu.
+I also found fuzzy matching interesting because it showed how difficult it can be
+to match similar items when their names aren't exactly the same.
+I think I still need more practice with writing CSS selectors and figuring
+out how to handle websites that load content dynamically.
+Going forward, I want to get more comfortable inspecting website elements
+and debugging scraping functions on my own.
+Overall, this assignment showed me how Python can be used to collect and analyze
+real-world data.

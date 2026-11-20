@@ -82,7 +82,9 @@ def scrape_hilltop(page) -> list[dict]:
     - Turn each melted row into a dict with the five keys; `clean_price()` the price.
     """
     page.goto(cafe_url("Hilltop Grind"))
-    categories = [heading.inner_text() for heading in page.query_selector_all("#menu h2")]
+    categories = [
+        heading.inner_text() for heading in page.query_selector_all("#menu h2")
+    ]
     tables = pd.read_html(StringIO(page.content()))
     rows = []
     for category, table in zip(categories, tables):
